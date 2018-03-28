@@ -100,5 +100,6 @@
     "docker-db-seed": "docker-compose exec api yarn db-seed",
     "deploy": "node tools/publish.js",
     "start": "node tools/run.js"
-  }
+  },
+  "main": "tools/run.js"
 }
